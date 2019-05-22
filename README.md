@@ -49,5 +49,5 @@ Exported by routes.js, contains the '/c' and '/d' routes.
 * Endpoint: `/d`  
   * Errors with a status of 418. Returns the string 'Error: I am a teapot'.  
   
-<!-- #### UML 
-Link to an image of the UML for your application and response to events -->
+#### UML 
+![uml](https://github.com/401-advanced-javascript-mj/lab-07-middleware/blob/readme/assets/20190521_214037.jpg)  
