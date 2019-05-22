@@ -36,10 +36,11 @@ app.get('/*', notFound);
 
 app.use(errorHandler);
 
-module.exports = { server: app,
+module.exports = { 
+  server: app,
   start: port => {
     let PORT = port || process.env.PORT || 8080;
     app.listen(PORT, () => console.log(`Listening on ${PORT}`));
-}
-}
+  },
+};
 
